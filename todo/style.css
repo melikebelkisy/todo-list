@@ -1,0 +1,52 @@
+
+body {
+    background-color: blueviolet;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .main-container {
+    max-width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  
+  .text-input,
+  .text-input:focus {
+    color: #fff;
+    border: none;
+    background: rgb(70, 23, 67);
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  .todo-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .todo-item {
+    background-color:rgb(222, 29, 167);
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .delete {
+    cursor: pointer;
+    color: rgb(222, 29, 167);
+  }
+  
+  .filtered-message {
+    display: none !important;
+    text-align: center;
+    font-style: italic;
+    color: gray;
+    margin-top: 20px;
+  }
+  
